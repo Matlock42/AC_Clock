@@ -192,8 +192,8 @@
 	(net 110 "unconnected-(RN6-R4.2-Pad5)")
 	(net 111 "unconnected-(RN8-R4.1-Pad4)")
 	(net 112 "unconnected-(RN8-R4.2-Pad5)")
-	(net 113 "/32s")
-	(net 114 "/16s")
+	(net 113 "/34s")
+	(net 114 "/17s")
 	(net 115 "/8s")
 	(net 116 "/Fused")
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -1907,7 +1907,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 114 "/16s")
+			(net 114 "/17s")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "0ec3dcfe-e06f-4376-8c6f-d2fc0fd4f639")
@@ -2830,7 +2830,7 @@
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 113 "/32s")
+			(net 113 "/34s")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "b299a885-c185-4291-8a59-8ec63e085637")
@@ -6710,7 +6710,7 @@
 			(uuid "38c12bd6-f074-4435-99ea-9fd90f5e04ee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5ba75df9-96aa-4bb7-82dc-14d800cb016f")
 			(effects
@@ -7862,7 +7862,7 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP1"
-			(at 0 -1.8 360)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "b12e9c9a-2ac4-4fdf-a11e-c023ddedaacf")
 			(effects
@@ -7873,7 +7873,7 @@
 			)
 		)
 		(property "Value" "Freq Sel."
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "30b5750d-b971-462a-9541-59a7ccf9921b")
 			(effects
@@ -8184,7 +8184,7 @@
 		(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW2"
-			(at 0 -4.05 360)
+			(at 0 -4.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d1069b7b-98c6-4dc7-9db8-fadac39ff07c")
@@ -8196,7 +8196,7 @@
 			)
 		)
 		(property "Value" "Hr_PB"
-			(at 0 -5.08 360)
+			(at 0 -5.08 0)
 			(layer "F.SilkS")
 			(uuid "f4277486-7062-413e-8e03-d5241d3b6a76")
 			(effects
@@ -8421,7 +8421,7 @@
 			(uuid "c4cde3a3-6330-4122-b4fb-21286907b3b2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -4.05 360)
+			(at 0 -4.05 0)
 			(layer "F.Fab")
 			(uuid "9650524d-1977-4ee8-8695-66a33959e197")
 			(effects
@@ -10046,7 +10046,7 @@
 		(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW1"
-			(at 0 -4.05 360)
+			(at 0 -4.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "648a6234-9e2a-4de0-a1fe-83863d23fe18")
@@ -10058,7 +10058,7 @@
 			)
 		)
 		(property "Value" "Min_PB"
-			(at 0 -5.08 360)
+			(at 0 -5.08 0)
 			(layer "F.SilkS")
 			(uuid "6dda0640-7d01-4d5f-b8ea-0c20a578a1fd")
 			(effects
@@ -10283,7 +10283,7 @@
 			(uuid "510db22d-95bd-4c99-8b45-1173d7399901")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -4.05 360)
+			(at 0 -4.05 0)
 			(layer "F.Fab")
 			(uuid "2a12feff-fc89-4cdc-98b4-5658e0a55552")
 			(effects
@@ -12774,7 +12774,7 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U3"
-			(at 3.81 -2.33 360)
+			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "7bf0c7d8-4130-4374-b6f6-49aafcb635e9")
 			(effects
@@ -12785,7 +12785,7 @@
 			)
 		)
 		(property "Value" "4040"
-			(at 3.81 20.11 360)
+			(at 3.81 20.11 0)
 			(layer "F.Fab")
 			(uuid "bf29a7ec-3145-4776-a941-86f4ac1e4726")
 			(effects
@@ -12991,7 +12991,7 @@
 			(uuid "63e3bc07-5b38-4b7c-9aae-b6b1c05e6a9e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 8.89 360)
+			(at 3.81 8.89 0)
 			(layer "F.Fab")
 			(uuid "03fe2a54-b9d8-4aec-b8d5-3becc4c38eef")
 			(effects
@@ -13007,7 +13007,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 113 "/32s")
+			(net 113 "/34s")
 			(pinfunction "Q11")
 			(pintype "output")
 			(uuid "b4408463-b55d-47b3-9966-b0b1907b25ff")
@@ -13161,7 +13161,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 114 "/16s")
+			(net 114 "/17s")
 			(pinfunction "Q10")
 			(pintype "output")
 			(uuid "4a6302f2-f969-455d-8c72-5c62d996ee7c")
@@ -17461,7 +17461,7 @@
 			(uuid "93731846-d230-47a9-ae1a-0fb2eea267c7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.27 -11.43 360)
+			(at -1.27 -11.43 0)
 			(layer "B.Fab")
 			(uuid "f3ab628b-7f6d-4454-af60-67951831ebb7")
 			(effects
@@ -17843,7 +17843,7 @@
 			(uuid "ddbfc646-bce8-406b-893d-d6cf4fc13665")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.27 -11.43 360)
+			(at -1.27 -11.43 0)
 			(layer "B.Fab")
 			(uuid "a9db9f5a-d7f7-4761-8b17-0dd2ed3e9444")
 			(effects
@@ -18225,7 +18225,7 @@
 			(uuid "bd32eaa8-532e-42c8-a79c-583b859a19c6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.27 -11.43 360)
+			(at -1.27 -11.43 0)
 			(layer "B.Fab")
 			(uuid "a83ec2c9-758b-4b23-be4b-1f5c2bd52c20")
 			(effects
@@ -18607,7 +18607,7 @@
 			(uuid "9a8abb18-3ae6-4c69-935a-a45455f2749d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.27 -11.43 360)
+			(at -1.27 -11.43 0)
 			(layer "B.Fab")
 			(uuid "8b2f3d69-0682-4040-b0e3-b7d6bda5b623")
 			(effects
