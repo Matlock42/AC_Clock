@@ -4064,12 +4064,6 @@
 		(color 0 0 0 0)
 		(uuid "fe27ae07-50b9-4584-ae28-94b2ebfa1e08")
 	)
-	(junction
-		(at 236.22 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe6b2152-dcd1-4b34-886c-3272fc3d5a6b")
-	)
 	(no_connect
 		(at 59.69 93.98)
 		(uuid "066d11b9-936b-4be4-9440-cbdb4270b4ce")
@@ -4096,7 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 93.98) (xy 236.22 101.6)
+			(xy 236.22 93.98) (xy 236.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4226,16 +4220,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 81.28) (xy 59.69 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fcb0633-e881-41ec-a985-808f4ac029b3")
-	)
-	(wire
-		(pts
 			(xy 124.46 36.83) (xy 124.46 38.1)
 		)
 		(stroke
@@ -4296,7 +4280,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 71.12 86.36)
+			(xy 59.69 86.36) (xy 69.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4336,7 +4320,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 101.6) (xy 234.95 101.6)
+			(xy 229.87 101.6) (xy 240.03 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4433,16 +4417,6 @@
 			(type default)
 		)
 		(uuid "22d59bda-5ef9-45bb-95f5-26c57da29586")
-	)
-	(wire
-		(pts
-			(xy 237.49 101.6) (xy 237.49 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24ebcbbb-7536-4804-92dd-b5274ad58e0b")
 	)
 	(wire
 		(pts
@@ -4626,16 +4600,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 101.6) (xy 237.49 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40488d44-de6d-4356-9202-d370de2fe2a7")
-	)
-	(wire
-		(pts
 			(xy 68.58 147.32) (xy 68.58 157.48)
 		)
 		(stroke
@@ -4673,16 +4637,6 @@
 			(type default)
 		)
 		(uuid "44de3058-cd6d-4f2f-9b26-ad7cc23ad9e0")
-	)
-	(wire
-		(pts
-			(xy 254 104.14) (xy 254 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45fc50c2-d5d4-459a-a749-9438671a0491")
 	)
 	(wire
 		(pts
@@ -4806,16 +4760,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 109.22) (xy 246.38 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5101b29d-f6f5-40a8-bf1b-2ea5213beddc")
-	)
-	(wire
-		(pts
 			(xy 35.56 166.37) (xy 35.56 177.8)
 		)
 		(stroke
@@ -4866,7 +4810,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 83.82) (xy 71.12 83.82)
+			(xy 59.69 83.82) (xy 69.85 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4953,6 +4897,16 @@
 			(type default)
 		)
 		(uuid "62427f69-2a00-4e04-9d10-0b9a0f150aaf")
+	)
+	(wire
+		(pts
+			(xy 59.69 81.28) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a1633f-2ea0-4ed5-a869-960d80b3d38b")
 	)
 	(wire
 		(pts
@@ -5243,16 +5197,6 @@
 			(type default)
 		)
 		(uuid "9980dc77-7ac6-4024-aefc-95b8fa9738fb")
-	)
-	(wire
-		(pts
-			(xy 234.95 100.33) (xy 234.95 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad72c38-f403-4edd-9160-cd2fcc0430ba")
 	)
 	(wire
 		(pts
@@ -5816,16 +5760,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 100.33) (xy 234.95 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e82f0cbc-498d-496b-b9c5-be8679ace0fe")
-	)
-	(wire
-		(pts
 			(xy 50.8 167.64) (xy 58.42 167.64)
 		)
 		(stroke
@@ -6148,6 +6082,17 @@
 		)
 		(uuid "0315826e-8c65-4ea1-af26-ba6da39cadfb")
 	)
+	(label "16s"
+		(at 66.04 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20e83466-6115-4431-b288-74a987ad3f10")
+	)
 	(label "AC_12-"
 		(at 72.39 41.91 0)
 		(fields_autoplaced yes)
@@ -6169,6 +6114,17 @@
 			(justify left bottom)
 		)
 		(uuid "3f1fe08a-0dc5-4cc7-9576-a87544aefb24")
+	)
+	(label "32s"
+		(at 66.04 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47224255-a84a-429b-baa6-1cd7dc231c3f")
 	)
 	(label "RST_{hr}"
 		(at 196.85 78.74 0)
@@ -6225,6 +6181,17 @@
 		)
 		(uuid "725d89ef-e1d8-4780-9cd0-b3232e07acbb")
 	)
+	(label "minute"
+		(at 57.15 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85aeabd7-9913-4376-b6ed-580680bc14ec")
+	)
 	(label "CKhr"
 		(at 196.85 71.12 0)
 		(fields_autoplaced yes)
@@ -6259,7 +6226,7 @@
 		(uuid "9586209b-2a9d-4d3b-9e36-7f90284e1912")
 	)
 	(label "2Hz"
-		(at 71.12 83.82 180)
+		(at 69.85 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6270,7 +6237,7 @@
 		(uuid "96610daa-45af-4532-851b-6a6bc37c620d")
 	)
 	(label "1Hz"
-		(at 71.12 86.36 180)
+		(at 69.85 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6313,8 +6280,30 @@
 		)
 		(uuid "ada70701-7b53-4581-9685-7371c5e28636")
 	)
+	(label "8s"
+		(at 66.04 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2ce6b41-9a4c-4f09-8fb4-d19c28c19cf7")
+	)
+	(label "SetH"
+		(at 50.8 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b35ba8dc-b92e-4f22-8ed1-2f6e4bfe0964")
+	)
 	(label "4Hz"
-		(at 71.12 81.28 180)
+		(at 69.85 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6346,6 +6335,17 @@
 		)
 		(uuid "d8aabf43-8ce4-4d65-a290-d5e6b1abe02d")
 	)
+	(label "Fused"
+		(at 46.99 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e970eb6f-344a-489a-89c5-ff666caff6eb")
+	)
 	(label "Pulse"
 		(at 195.58 31.75 180)
 		(fields_autoplaced yes)
@@ -6357,8 +6357,8 @@
 		)
 		(uuid "efe0d697-fb81-41e7-9168-71287f0fbb34")
 	)
-	(label "minute"
-		(at 59.69 101.6 0)
+	(label "SetM"
+		(at 50.8 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6366,7 +6366,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f36203a2-88a5-4770-bf26-35ccc8ed7a9d")
+		(uuid "f58fa32d-96e4-4a72-8321-ec62556449bc")
 	)
 	(label "10hr"
 		(at 210.82 88.9 0)
@@ -6787,94 +6787,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 236.22 105.41 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08540580-23e7-4e7b-968d-43fa24c317eb")
-		(property "Reference" "D12"
-			(at 233.68 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 233.68 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 240.665 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 236.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 236.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 236.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 236.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4705e459-0ea3-4f03-994a-7fb314c511e7")
-		)
-		(pin "1"
-			(uuid "8283fe0a-87db-4ffd-be8a-5beb20e88a9c")
-		)
-		(instances
-			(project "AC_Clock"
-				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 161.29 106.68 90)
 		(unit 1)
@@ -6901,7 +6813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.29 108.458 90)
 			(effects
 				(font
@@ -6945,75 +6857,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 250.19 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "109b902a-dfca-4ab8-a659-6475a59624ba")
-		(property "Reference" "R8"
-			(at 251.46 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 251.46 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 250.19 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 250.19 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e97af9e-0765-43f7-80a1-b607ee7e9c4e")
-		)
-		(pin "2"
-			(uuid "f7967ff0-55bd-46ac-9716-5de08e79af5b")
-		)
-		(instances
-			(project "AC_Clock"
-				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 36.83 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7039,7 +6882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.83 66.548 90)
 			(effects
 				(font
@@ -7167,7 +7010,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Min_PB"
 			(at 40.64 152.4 0)
 			(effects
 				(font
@@ -8036,7 +7879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 159.258 90)
 			(effects
 				(font
@@ -8175,7 +8018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 190.5 80.518 90)
 			(effects
 				(font
@@ -8491,7 +8334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 250.19 90.678 90)
 			(effects
 				(font
@@ -10030,72 +9873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 254 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b23bd4d8-d5a4-4fbb-88f2-5b8ed55bc4c4")
-		(property "Reference" "#PWR021"
-			(at 254 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 254 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0bde222-58db-477f-bb6d-ae132920936e")
-		)
-		(instances
-			(project "AC_Clock"
-				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS393")
 		(at 127 73.66 0)
 		(unit 1)
@@ -10616,7 +10393,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Hr_PB"
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -11555,7 +11332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.29 36.068 90)
 			(effects
 				(font
@@ -12013,7 +11790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 190.5 32.512 90)
 			(effects
 				(font
@@ -12082,7 +11859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.29 88.138 90)
 			(effects
 				(font
@@ -12152,7 +11929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 179.578 90)
 			(effects
 				(font
