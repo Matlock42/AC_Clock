@@ -3550,7 +3550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 88.9 137.795 90)
 			(effects
 				(font
@@ -4066,7 +4066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 195.58 67.945 90)
 			(effects
 				(font
@@ -4217,7 +4217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 88.9 147.955 90)
 			(effects
 				(font
@@ -4368,7 +4368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -4437,7 +4437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 175.26 53.34 0)
 			(effects
 				(font
@@ -4547,7 +4547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.47 30.48 0)
 			(effects
 				(font
@@ -4614,7 +4614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 88.9 66.675 90)
 			(effects
 				(font
@@ -4767,7 +4767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 68.58 52.07 0)
 			(effects
 				(font
@@ -5276,7 +5276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.15 31.75 0)
 			(effects
 				(font
@@ -5409,7 +5409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 195.58 57.785 90)
 			(effects
 				(font
@@ -5627,7 +5627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.88 113.03 0)
 			(effects
 				(font
@@ -5760,7 +5760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 194.31 149.225 90)
 			(effects
 				(font
@@ -6409,7 +6409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 194.31 139.065 90)
 			(effects
 				(font
@@ -6560,7 +6560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 88.9 56.515 90)
 			(effects
 				(font
@@ -6647,7 +6647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 68.58 133.35 0)
 			(effects
 				(font
@@ -6824,7 +6824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 173.99 134.62 0)
 			(effects
 				(font
