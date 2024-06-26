@@ -878,7 +878,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "JKC_Library:Broadcom_HDSP-81x"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3702,7 +3702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JKC_Library:Broadcom_HDSP-81x"
 			(at 106.68 133.35 0)
 			(effects
 				(font
@@ -5008,7 +5008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JKC_Library:Broadcom_HDSP-81x"
 			(at 213.36 53.34 0)
 			(effects
 				(font
@@ -5109,7 +5109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JKC_Library:Broadcom_HDSP-81x"
 			(at 106.68 52.07 0)
 			(effects
 				(font
@@ -6308,7 +6308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JKC_Library:Broadcom_HDSP-81x"
 			(at 212.09 134.62 0)
 			(effects
 				(font
