@@ -3033,6 +3033,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 5.08 7.62 180)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 5.08 5.08 180)
 					(length 2.54)
@@ -3116,6 +3134,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -7.62 180)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4729,6 +4765,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 81.28) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9089ef-d389-4bc5-a849-501343c91d94")
+	)
+	(wire
+		(pts
 			(xy 229.87 99.06) (xy 243.84 99.06)
 		)
 		(stroke
@@ -5299,7 +5345,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 83.82) (xy 69.85 83.82)
+			(xy 59.69 83.82) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5386,16 +5432,6 @@
 			(type default)
 		)
 		(uuid "62427f69-2a00-4e04-9d10-0b9a0f150aaf")
-	)
-	(wire
-		(pts
-			(xy 59.69 81.28) (xy 92.71 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a1633f-2ea0-4ed5-a869-960d80b3d38b")
 	)
 	(wire
 		(pts
@@ -5496,6 +5532,16 @@
 			(type default)
 		)
 		(uuid "6eb49784-c316-43d6-9731-859ec9019345")
+	)
+	(wire
+		(pts
+			(xy 92.71 83.82) (xy 92.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f861a98-a744-4d82-8bbd-e3d6a78f306d")
 	)
 	(wire
 		(pts
@@ -5736,16 +5782,6 @@
 			(type default)
 		)
 		(uuid "9980dc77-7ac6-4024-aefc-95b8fa9738fb")
-	)
-	(wire
-		(pts
-			(xy 92.71 101.6) (xy 92.71 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b325a14-5fcf-4c5a-bb3a-a8102ecd53cd")
 	)
 	(wire
 		(pts
@@ -6585,7 +6621,7 @@
 	)
 	(text_box "Diodes used as AND gate\nhttps://cr4.globalspec.com/\nthread/37049/Digital-Clocks-\nDividing-by-60-With-1-Chip"
 		(exclude_from_sim no)
-		(at 45.72 119.38 0)
+		(at 60.96 119.38 0)
 		(size 33.02 10.16)
 		(stroke
 			(width 0)
@@ -6601,6 +6637,25 @@
 			(justify left top)
 		)
 		(uuid "12c39218-b4d8-4ec5-a0f6-27eaca1cef6f")
+	)
+	(text_box "Overflow set to:\nDecimal 3600\nBin 1110 0001 0000"
+		(exclude_from_sim no)
+		(at 25.4 119.38 0)
+		(size 33.02 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4b88df80-80a6-48c1-ad29-e96892bc01f1")
 	)
 	(text "30 Hz"
 		(exclude_from_sim no)
@@ -12191,6 +12246,12 @@
 		)
 		(pin "12"
 			(uuid "52afc912-15eb-4198-bb6f-8b23f6957fa9")
+		)
+		(pin "10"
+			(uuid "d8dd833d-7be3-404d-a2d7-3788223510ad")
+		)
+		(pin "9"
+			(uuid "ce9d8258-0463-4617-9e64-abc4473f0e60")
 		)
 		(instances
 			(project ""
