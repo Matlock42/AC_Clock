@@ -12788,7 +12788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-6_W9.53mm_Clearance8mm"
+		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
 			(at 177.8 39.37 0)
 			(effects
 				(font
