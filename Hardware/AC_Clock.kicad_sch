@@ -6744,6 +6744,16 @@
 		)
 		(uuid "2830ca1d-ecb9-4adf-a06d-8c110cbe737d")
 	)
+	(text "Change to?\nCD4518"
+		(exclude_from_sim no)
+		(at 127.254 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "457ab7cc-0a1d-4080-b75c-5162d16b6bdf")
+	)
 	(text "(3.75 Hz)"
 		(exclude_from_sim no)
 		(at 73.66 83.82 0)
@@ -6864,6 +6874,16 @@
 			)
 		)
 		(uuid "c7c1140f-ebb1-463c-8a56-4c8af4117a53")
+	)
+	(text "Change to CD4510\n& J/K Flip flop\nHEF4027 ?"
+		(exclude_from_sim no)
+		(at 190.5 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d08b5255-b230-4469-bfc3-afb825491576")
 	)
 	(text "(1.06667 s)"
 		(exclude_from_sim no)
@@ -12861,7 +12881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" ""
 			(at 68.58 44.45 0)
 			(effects
 				(font
@@ -12888,7 +12908,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DE2B3SA221KA3BX02F"
+		(property "MPN" "DE1E3RA102MJ4BN01F"
 			(at 68.58 44.45 90)
 			(effects
 				(font
