@@ -7459,22 +7459,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "cabac09a-3920-46bf-84ab-2e0a5dfcdea5")
+			(uuid "cabac09a-3920-46bf-84ab-2e0a5dfcdea6")
 		)
 		(pin "6"
-			(uuid "7c77d051-6098-4395-84cd-9ffaa1bff0c2")
+			(uuid "7c77d051-6098-4395-84cd-9ffaa1bff0c3")
 		)
 		(pin "1"
-			(uuid "a4f74bed-3d70-4800-890a-8e07d4b59f96")
+			(uuid "a4f74bed-3d70-4800-890a-8e07d4b59f97")
 		)
 		(pin "2"
-			(uuid "868252ad-b09d-4d38-a5b4-f2350ce5f80f")
+			(uuid "868252ad-b09d-4d38-a5b4-f2350ce5f810")
 		)
 		(pin "3"
-			(uuid "f95e5121-a83c-400b-9962-a2fa328cb400")
+			(uuid "f95e5121-a83c-400b-9962-a2fa328cb401")
 		)
 		(pin "5"
-			(uuid "68328ee6-9148-49ad-a01b-06ad49488a1d")
+			(uuid "68328ee6-9148-49ad-a01b-06ad49488a1e")
 		)
 		(instances
 			(project ""
