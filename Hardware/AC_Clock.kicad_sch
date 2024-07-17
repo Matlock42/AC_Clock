@@ -7168,7 +7168,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 99.06) (xy 231.14 69.85)
+			(xy 236.22 99.06) (xy 236.22 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7338,7 +7338,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 69.85) (xy 248.92 69.85)
+			(xy 236.22 69.85) (xy 248.92 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7798,7 +7798,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 99.06) (xy 231.14 99.06)
+			(xy 220.98 99.06) (xy 236.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7974,6 +7974,16 @@
 		)
 		(uuid "4b88df80-80a6-48c1-ad29-e96892bc01f1")
 	)
+	(text "-> 60Hz count"
+		(exclude_from_sim no)
+		(at 176.53 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03d09a28-42c0-459b-a058-b3b2a11e5da8")
+	)
 	(text "30 Hz"
 		(exclude_from_sim no)
 		(at 66.04 76.454 0)
@@ -8040,9 +8050,9 @@
 		)
 		(uuid "5bc618d4-ea50-430b-8101-943fdc7e7f67")
 	)
-	(text "Optocoupler \n-> 60Hz count"
+	(text "Optocoupler"
 		(exclude_from_sim no)
-		(at 164.084 19.812 0)
+		(at 159.004 18.542 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8128,6 +8138,16 @@
 		)
 		(uuid "d10bb25a-a6d8-423e-9e64-0c0e08d9caf7")
 	)
+	(text "Min 10's\nFalling edge"
+		(exclude_from_sim no)
+		(at 229.87 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e09b7beb-59e0-4d86-8863-6c674fe78b41")
+	)
 	(text "AC In"
 		(exclude_from_sim no)
 		(at 23.368 18.542 0)
@@ -8139,6 +8159,16 @@
 		)
 		(uuid "e6451c2a-2066-4b80-ae19-702aec8bf012")
 	)
+	(text "Min 1's\nFalling edge"
+		(exclude_from_sim no)
+		(at 259.334 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9a35c65-5a29-424c-936b-922b5e4a068f")
+	)
 	(text "2.1333 s"
 		(exclude_from_sim no)
 		(at 66.294 94.234 0)
@@ -8149,6 +8179,16 @@
 			(justify left bottom)
 		)
 		(uuid "f09f31a3-dd2d-4fc6-a8af-2ac92b1ec5a4")
+	)
+	(text "Hr 1's\nRising edge"
+		(exclude_from_sim no)
+		(at 188.214 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4facc25-32a4-4d56-bdb0-140bcc4b398f")
 	)
 	(label "Pulse"
 		(at 27.94 76.2 0)
@@ -8162,7 +8202,7 @@
 		(uuid "02068327-d6fd-47a7-931d-788fbec5a572")
 	)
 	(label "10m"
-		(at 231.14 69.85 0)
+		(at 236.22 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12462,7 +12502,7 @@
 		(dnp no)
 		(uuid "b1e4573a-74a2-4414-9f33-68e498368d38")
 		(property "Reference" "SW3"
-			(at 191.516 107.696 0)
+			(at 191.77 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12470,7 +12510,7 @@
 			)
 		)
 		(property "Value" "Hour Set"
-			(at 189.738 109.728 0)
+			(at 198.12 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
