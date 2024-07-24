@@ -7334,7 +7334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 250.19 123.19 0)
 			(effects
 				(font
@@ -7730,7 +7730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 250.19 50.8 0)
 			(effects
 				(font
@@ -9411,7 +9411,7 @@
 		(dnp no)
 		(uuid "f83f9ae7-29f1-4f19-b3e6-c2dff554e572")
 		(property "Reference" "RN7"
-			(at 88.9 136.398 90)
+			(at 88.9 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9496,7 @@
 		(dnp no)
 		(uuid "fc8efa2e-118b-4b9b-93e8-d3ebe40a5582")
 		(property "Reference" "RN7"
-			(at 88.9 138.43 90)
+			(at 88.9 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
