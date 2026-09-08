@@ -732,7 +732,23 @@
     ],
     [
       "8415622f-d6a3-4b8d-9ccc-26640cae3420",
-      "Display Driver"
+      "01_Minute"
+    ],
+    [
+      "8bbb75c9-62b8-4128-b141-2203322cccf0",
+      "10_Minute"
+    ],
+    [
+      "9c3e6a6e-1bd7-4020-9c43-ff5dae6e50b0",
+      "01_Hour"
+    ],
+    [
+      "866e8215-1d8c-47c5-8153-911fecd2aea2",
+      "10_Hour"
+    ],
+    [
+      "2905fac8-d818-4a72-9c6c-e2a6c6597572",
+      "PM Indicator"
     ]
   ],
   "text_variables": {}
