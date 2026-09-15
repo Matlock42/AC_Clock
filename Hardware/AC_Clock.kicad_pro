@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|74210000|123981154|6dabf4c1-0691-4b87-97ad-13887558393f|ce8c6508-20bf-47e9-8807-a4652418dcb9",
+          "Heat Sink attached to U1"
+        ]
+      ],
       "meta": {
         "version": 2
       },
