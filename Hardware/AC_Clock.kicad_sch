@@ -4213,25 +4213,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 2.54 6.985 0)
+			(property "Reference" "D1"
+				(at 4.572 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "ABS2"
-				(at 2.54 5.08 0)
+			(property "Value" "RS203"
+				(at 4.572 -6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:Diode_Bridge_Diotec_ABS"
+			(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_KBPM"
 				(at 3.81 3.175 0)
 				(effects
 					(font
@@ -4241,7 +4239,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4250,7 +4248,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.8A If, ABS SMD package"
+			(property "Description" "Bridge Rectifier Single Phase, Through Hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4398,7 +4396,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4416,7 +4414,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5099,6 +5097,105 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -6878,6 +6975,12 @@
 		(uuid "cbcec158-5a7d-43e2-859d-01ec9c838e48")
 	)
 	(junction
+		(at 62.23 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce72e736-a129-4125-bae0-9fd839623e09")
+	)
+	(junction
 		(at 187.96 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6888,18 +6991,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf62035a-1baf-4415-81bb-06a66d10c9f2")
-	)
-	(junction
-		(at 62.23 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0e2ace9-d31b-4869-8da7-0cafc6ff0f19")
-	)
-	(junction
-		(at 60.96 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2ccf123-44aa-4892-883c-cb14f14de26e")
 	)
 	(junction
 		(at 215.9 91.44)
@@ -6930,6 +7021,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e53109a5-59e1-4f3e-8de4-94c71090b2fc")
+	)
+	(junction
+		(at 60.96 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee0db644-8197-4132-86d6-0cadfab114a1")
 	)
 	(junction
 		(at 30.48 26.67)
@@ -7217,16 +7314,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.06) (xy 62.23 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "182c14b0-8f94-4aa1-8b4a-f4d610ee04ac")
-	)
-	(wire
-		(pts
 			(xy 177.8 123.19) (xy 187.96 123.19)
 		)
 		(stroke
@@ -7307,16 +7394,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 99.06) (xy 68.58 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da2c78c-56fe-4833-97dc-2717e91401b4")
-	)
-	(wire
-		(pts
 			(xy 29.21 173.99) (xy 29.21 171.45)
 		)
 		(stroke
@@ -7334,16 +7411,6 @@
 			(type default)
 		)
 		(uuid "20491b91-176a-43fa-9636-391a0ce54c47")
-	)
-	(wire
-		(pts
-			(xy 60.96 121.92) (xy 60.96 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2255a4cc-c8f1-4a0c-bf50-7b593161256f")
 	)
 	(wire
 		(pts
@@ -7537,6 +7604,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 99.06) (xy 60.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36531ed8-dae7-4a41-a928-85a7a86273f0")
+	)
+	(wire
+		(pts
 			(xy 132.08 27.94) (xy 137.16 27.94)
 		)
 		(stroke
@@ -7594,6 +7671,16 @@
 			(type default)
 		)
 		(uuid "3b4bc1bb-bca6-446e-8096-829ca4b6a139")
+	)
+	(wire
+		(pts
+			(xy 66.04 121.92) (xy 60.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7d8cac-8947-46f1-9580-95d369bb49cf")
 	)
 	(wire
 		(pts
@@ -7747,7 +7834,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 101.6) (xy 60.96 101.6)
+			(xy 59.69 101.6) (xy 62.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7977,16 +8064,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 121.92) (xy 60.96 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cfc9c02-8ae5-41ea-b5be-1c74bbd75f67")
-	)
-	(wire
-		(pts
 			(xy 111.76 36.83) (xy 124.46 36.83)
 		)
 		(stroke
@@ -8177,6 +8254,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 119.38) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bfe002-a12a-4f0f-97b8-93ae6baec7dd")
+	)
+	(wire
+		(pts
 			(xy 190.5 29.21) (xy 194.31 29.21)
 		)
 		(stroke
@@ -8204,6 +8291,16 @@
 			(type default)
 		)
 		(uuid "8ad8c4d3-8c62-40cc-936b-8c8833ace65d")
+	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 69.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afcf2c6-5fc5-42e2-8634-bfd27defa24a")
 	)
 	(wire
 		(pts
@@ -8284,16 +8381,6 @@
 			(type default)
 		)
 		(uuid "94a3bedb-48dd-49b8-bb6a-5d551f0c1443")
-	)
-	(wire
-		(pts
-			(xy 62.23 119.38) (xy 62.23 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9560df77-6dc3-49c5-8ace-b1c89dafcda0")
 	)
 	(wire
 		(pts
@@ -8414,6 +8501,16 @@
 			(type default)
 		)
 		(uuid "9f4f5af8-8200-4052-b0c7-49280fad81a7")
+	)
+	(wire
+		(pts
+			(xy 60.96 99.06) (xy 59.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc6a321-a5f7-4c00-b303-ab0f4807bfb2")
 	)
 	(wire
 		(pts
@@ -8897,6 +8994,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 99.06) (xy 68.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48a5ddf-5d53-4dbf-a1bf-48c772ba8032")
+	)
+	(wire
+		(pts
 			(xy 105.41 88.9) (xy 109.22 88.9)
 		)
 		(stroke
@@ -8947,16 +9054,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 119.38) (xy 62.23 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea569b18-a1ff-4801-a050-fe126214c607")
-	)
-	(wire
-		(pts
 			(xy 16.51 165.1) (xy 16.51 167.64)
 		)
 		(stroke
@@ -8984,16 +9081,6 @@
 			(type default)
 		)
 		(uuid "ed6b889f-6c97-45ba-b56f-9999e38b24f7")
-	)
-	(wire
-		(pts
-			(xy 60.96 101.6) (xy 69.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eefb316f-b58b-437d-b665-9e9ac2a80f91")
 	)
 	(wire
 		(pts
@@ -9094,6 +9181,16 @@
 			(type default)
 		)
 		(uuid "f5e4b95e-4de5-48a0-8c0f-3b97a64e7615")
+	)
+	(wire
+		(pts
+			(xy 62.23 119.38) (xy 66.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2c0b18-5c3c-43fc-aa97-fd620219deb3")
 	)
 	(wire
 		(pts
@@ -9676,6 +9773,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 111.76 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ec0d1fb-5366-4db6-bad3-cad36b346a51")
+		(property "Reference" "HS1"
+			(at 115.57 43.8149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 115.57 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JKC_Library:Heatsink_TO220_CUI_HSS-B20-NP-02"
+			(at 112.0648 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 112.0648 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 29.21 36.83 0)
 		(unit 1)
@@ -9834,7 +9995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -9943,7 +10104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 175.26 106.68 0)
 			(effects
 				(font
@@ -10054,7 +10215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 241.3 35.56 0)
 			(effects
 				(font
@@ -10157,7 +10318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 26.67 187.96 0)
 			(effects
 				(font
@@ -10261,7 +10422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 203.2 106.68 0)
 			(effects
 				(font
@@ -10431,7 +10592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 135.89 86.36 0)
 			(effects
 				(font
@@ -10536,7 +10697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 215.9 105.41 0)
 			(effects
 				(font
@@ -10648,7 +10809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -10760,7 +10921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 148.59 144.145 0)
 			(effects
 				(font
@@ -11124,7 +11285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 46.99 88.9 0)
 			(effects
 				(font
@@ -11710,7 +11871,7 @@
 				)
 			)
 		)
-		(property "Value" "ABS2"
+		(property "Value" "RS203"
 			(at 88.392 24.892 0)
 			(effects
 				(font
@@ -11718,7 +11879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Diode_Bridge_Diotec_ABS"
+		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_KBPM"
 			(at 87.63 34.925 0)
 			(effects
 				(font
@@ -11728,7 +11889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf"
+		(property "Datasheet" ""
 			(at 83.82 31.75 0)
 			(effects
 				(font
@@ -11737,7 +11898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.8A If, ABS SMD package"
+		(property "Description" "Bridge Rectifier Single Phase, Through Hole"
 			(at 83.82 31.75 0)
 			(effects
 				(font
@@ -11993,7 +12154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 116.84 86.36 0)
 			(effects
 				(font
@@ -12300,7 +12461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 128.27 118.11 0)
 			(effects
 				(font
@@ -12512,7 +12673,8 @@
 	)
 	(symbol
 		(lib_id "4xxx:4518")
-		(at 243.84 105.41 90)
+		(at 243.84 105.41 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12520,7 +12682,7 @@
 		(dnp no)
 		(uuid "8c940386-79f2-491a-9b06-582106de5e00")
 		(property "Reference" "U3"
-			(at 245.872 104.14 90)
+			(at 241.808 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12529,7 +12691,7 @@
 			)
 		)
 		(property "Value" "4518"
-			(at 239.014 104.394 90)
+			(at 248.666 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,7 +12699,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 243.84 105.41 0)
 			(effects
 				(font
@@ -13120,7 +13282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 29.21 163.83 0)
 			(effects
 				(font
@@ -13363,7 +13525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 125.095 31.75 0)
 			(effects
 				(font
@@ -14078,7 +14240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -14190,7 +14352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Varistor:RV_Disc_D7mm_W5.1mm_P5mm"
+		(property "Footprint" "JKC_Library:Varistor_12mm_P7.5mm"
 			(at 43.942 31.75 90)
 			(effects
 				(font
@@ -14361,7 +14523,7 @@
 				)
 			)
 		)
-		(property "Value" "LTV-817S"
+		(property "Value" "817C"
 			(at 177.8 25.4 0)
 			(effects
 				(font
@@ -14369,7 +14531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
 			(at 177.8 39.37 0)
 			(effects
 				(font
@@ -15267,7 +15429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 78.74 120.65 0)
 			(effects
 				(font
