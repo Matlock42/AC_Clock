@@ -846,7 +846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1527dbd5-b997-497a-95fe-3aa124547393")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 82.296 65.786 90)
 			(effects
 				(font
@@ -862,7 +862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 82.55 70.358 90)
 			(effects
 				(font
@@ -898,7 +898,7 @@
 		(instances
 			(project "AC_Clock"
 				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/2905fac8-d818-4a72-9c6c-e2a6c6597572"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -914,7 +914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fc8990e-fe0f-477e-9987-ff246d2edc68")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 100.33 67.3099 0)
 			(effects
 				(font
@@ -992,7 +992,7 @@
 		(instances
 			(project ""
 				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/2905fac8-d818-4a72-9c6c-e2a6c6597572"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1008,7 +1008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50d1acfc-809b-437a-afa1-0d1f847b6980")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 100.33 77.4699 0)
 			(effects
 				(font
@@ -1026,7 +1026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.012 78.74 90)
 			(effects
 				(font
@@ -1062,7 +1062,7 @@
 		(instances
 			(project ""
 				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/2905fac8-d818-4a72-9c6c-e2a6c6597572"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1078,7 +1078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a80d7a70-f991-400f-bb83-50b7d14df066")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -1128,7 +1128,7 @@
 		(instances
 			(project "AC_Clock"
 				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/2905fac8-d818-4a72-9c6c-e2a6c6597572"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1144,7 +1144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3232c8d-be60-4d29-afd9-7a6329739d90")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 97.79 100.33 0)
 			(effects
 				(font
@@ -1194,7 +1194,7 @@
 		(instances
 			(project "AC_Clock"
 				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/2905fac8-d818-4a72-9c6c-e2a6c6597572"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1210,7 +1210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96dd445-a248-49b9-beb2-3a2129c10c70")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 101.6 87.9474 90)
 			(effects
 				(font
@@ -1273,7 +1273,7 @@
 		(instances
 			(project "AC_Clock"
 				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/2905fac8-d818-4a72-9c6c-e2a6c6597572"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)

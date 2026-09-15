@@ -866,7 +866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JKC_Library:Display_HP_5082-7300"
 			(at 128.27 100.33 0)
 			(effects
 				(font
@@ -936,6 +936,12 @@
 					(unit 1)
 				)
 			)
+			(project "displayDriver"
+				(path "/fa7d4c5f-4bdf-4b04-831b-f46410c303db"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -948,7 +954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc075429-cec7-45c9-9b34-5a83a2bd77d6")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -998,19 +1004,25 @@
 		(instances
 			(project "AC_Clock"
 				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/8415622f-d6a3-4b8d-9ccc-26640cae3420"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/866e8215-1d8c-47c5-8153-911fecd2aea2"
-					(reference "#PWR041")
-					(unit 1)
-				)
-				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/8bbb75c9-62b8-4128-b141-2203322cccf0"
 					(reference "#PWR037")
 					(unit 1)
 				)
-				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/9c3e6a6e-1bd7-4020-9c43-ff5dae6e50b0"
+				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/866e8215-1d8c-47c5-8153-911fecd2aea2"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/8bbb75c9-62b8-4128-b141-2203322cccf0"
 					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/9c3e6a6e-1bd7-4020-9c43-ff5dae6e50b0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+			(project "displayDriver"
+				(path "/fa7d4c5f-4bdf-4b04-831b-f46410c303db"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1026,7 +1038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4fdbb6e-b989-4c44-a26a-30bee0f41d30")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 128.27 125.73 0)
 			(effects
 				(font
@@ -1076,22 +1088,34 @@
 		(instances
 			(project "AC_Clock"
 				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/8415622f-d6a3-4b8d-9ccc-26640cae3420"
-					(reference "#PWR036")
-					(unit 1)
-				)
-				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/866e8215-1d8c-47c5-8153-911fecd2aea2"
-					(reference "#PWR042")
-					(unit 1)
-				)
-				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/8bbb75c9-62b8-4128-b141-2203322cccf0"
 					(reference "#PWR038")
 					(unit 1)
 				)
-				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/9c3e6a6e-1bd7-4020-9c43-ff5dae6e50b0"
+				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/866e8215-1d8c-47c5-8153-911fecd2aea2"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/8bbb75c9-62b8-4128-b141-2203322cccf0"
 					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/25ded3d7-7fc5-4a73-82e8-c02ba32fe53a/9c3e6a6e-1bd7-4020-9c43-ff5dae6e50b0"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+			(project "displayDriver"
+				(path "/fa7d4c5f-4bdf-4b04-831b-f46410c303db"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
